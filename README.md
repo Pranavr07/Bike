@@ -1,4 +1,4 @@
-2D Hill Racing Game (Unity)
+2D Hill Bike Racing Game (Unity)
 A fun 2D hill climbing and stunt-based racing game built in Unity!
 Navigate hills, gaps, ramps, and traps while collecting coins and unlocking vehicles.
 
