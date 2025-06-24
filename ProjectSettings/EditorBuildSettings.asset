@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Vehicle.unity
     guid: c0dc6d60e3c6dc64c931f67146ae1628
   - enabled: 1
+    path: Assets/Scenes/Level.unity
+    guid: 36a2c107bc9993b4495286f6f12c33eb
+  - enabled: 1
     path: Assets/Scenes/level1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
