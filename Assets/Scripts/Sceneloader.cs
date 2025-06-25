@@ -6,7 +6,6 @@ public class SceneAndQuitManager : MonoBehaviour
     [Header("Scene Change Settings")]
     public string sceneName;
 
-    // Call this from a button to load the scene
     public void ChangeScene()
     {
         if (!string.IsNullOrEmpty(sceneName))
@@ -19,7 +18,6 @@ public class SceneAndQuitManager : MonoBehaviour
         }
     }
 
-    // Call this from a button to quit the game
     public void QuitGame()
     {
         Application.Quit();

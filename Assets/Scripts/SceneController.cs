@@ -10,22 +10,21 @@ public class SceneController : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject); // Keep across scenes
+            DontDestroyOnLoad(gameObject); 
         }
         else
         {
-            Destroy(gameObject); // Prevent duplicates
+            Destroy(gameObject); 
         }
     }
 
-    // Load the next scene in build index
+    
     public void NextLevel()
     {
         int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
         SceneManager.LoadSceneAsync(nextSceneIndex);
     }
 
-    // Load a specific scene by name
     public void LoadScene(string sceneName)
     {
         SceneManager.LoadSceneAsync(sceneName);

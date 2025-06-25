@@ -7,7 +7,7 @@ public class BikeManager : MonoBehaviour
 
     void Start()
     {
-        int selectedBike = PlayerPrefs.GetInt("SelectedBike", 1); // Default to Bike1
+        int selectedBike = PlayerPrefs.GetInt("SelectedBike", 1); 
 
         bike1.SetActive(selectedBike == 1);
         bike2.SetActive(selectedBike == 2);

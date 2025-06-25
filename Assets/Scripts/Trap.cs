@@ -10,7 +10,6 @@ public class TrapReset : MonoBehaviour
 
     void Start()
     {
-        // Save starting positions of both heroes
         if (hero1 != null)
             hero1StartPos = hero1.transform.position;
 
