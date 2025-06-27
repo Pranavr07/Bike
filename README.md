@@ -26,3 +26,5 @@ TextMeshPro
 
 📦 Platforms
 WebGL
+https://pranavr.itch.io/bike 
+this link play my game
